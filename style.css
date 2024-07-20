@@ -1,0 +1,264 @@
+*{
+    font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  background-color: cadetblue;
+}
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+.nav-item  .nav-link{
+
+    text-align: center;
+   margin: 5px;
+  border-radius: 5px;
+  background-color: rgb(200, 239, 10) !important; 
+}
+.nav-item  .nav-link:hover{
+background-color: black !important;
+color: white !important;
+
+}
+ .portfoh,.about,.services h1,.services1 h1{
+    position: relative;
+    animation: move 10s infinite;
+    overflow: hidden;
+} 
+
+@keyframes move{
+    0%{
+      transform:translateX(0)
+    }
+    50%{
+        transform:translateX(35%)
+      }
+      100%{
+        transform:translateX(0px)
+      }
+}
+
+
+
+.profile-titleparent .child{
+    margin-top: 200px !important;
+}
+div .profile-photo{
+    margin-top: 180px !important;
+    margin-left: 70px;
+    
+
+    
+    background-color: #f0f0f0;
+    border-radius: 20px; /* Adjust this value to make the corners more or less rounded */
+    box-shadow: 1px 2px 50px 50px rgb(232, 210, 163);
+    
+    font-size: 1.5em;
+    color: #333;
+    margin: 50px auto;
+}
+
+div .profile-photo{
+    margin-top: 180px !important;
+    margin-left: 70px;
+    
+
+    
+    background-color: #f0f0f0;
+    border-radius: 20px; /* Adjust this value to make the corners more or less rounded */
+    box-shadow: 1px 2px 50px 50px rgb(232, 210, 163);
+    
+    font-size: 1.5em;
+    color: #333;
+    margin: 50px auto;
+}
+div .profile-photo1{
+
+    margin-top: 300px;
+    background-color: #f0f0f0;
+    border-radius: 20px; /* Adjust this value to make the corners more or less rounded */
+    box-shadow: 1px 2px 50px 50px rgb(232, 210, 163);
+    
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 50px;
+   
+}
+
+.icons-size {
+    text-align: center;
+}
+.icons-size .fb,.twit{
+    font-size: 30px;
+    color: rgb(28, 10, 227);
+    margin-right: 10px;
+}
+.icons-size .twit{
+    font-size: 30px;
+    color: rgb(6, 4, 24);
+    margin-right: 10px;
+}
+.icons-size .what{
+    font-size: 30px;
+    color: rgb(90, 227, 10);
+    margin-right: 10px;
+}
+.icons-size .insta{
+    font-size: 30px;
+    color: rgb(242, 185, 40);
+    margin-right: 10px;
+}
+
+.pfphoto,.pfphoto1{
+text-align: center !important;
+
+}
+
+
+
+.about{
+    margin-top: 200px;
+  
+}
+
+
+.justify{
+    text-align: justify;
+}
+
+.container-fluid .services h1 {
+    margin-top: 200px;
+    margin-bottom: 100px;
+    text-align: center;
+
+}
+
+.container-fluid .services1 h1{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center; 
+}
+
+.card{
+    margin-right: 50px;
+    margin-bottom: 50px;
+    border: 1 px solid !important;
+    border-color:black !important ;
+    height: 450px !important;
+    overflow: hidden;
+    transition-duration: 3s;
+    transition-property: all;
+    transition-delay: 0s;
+   
+}
+
+.card1{
+    margin-right: 50px;
+    margin-bottom: 50px;
+    border: 1 px solid !important;
+    border-color:black !important ;
+    height: 400px !important;
+   
+}
+
+
+.card img{
+    height: 300px;
+}
+
+.card:hover{
+    transform: rotate(5deg);
+    animation-duration: 3s;
+}
+
+.card img:hover{
+transform: scalex(1.1);
+animation-duration: 0.2s;
+
+}
+
+
+/* div .profile-photo:hover{
+    transform: rotate(360deg);
+} */
+
+
+/* .profile-photo {
+    position: relative;
+    animation: move 3s infinite;
+}
+
+@keyframes move{
+
+    0%{
+      transform: translateX(0) 
+    }
+   
+    50%{
+        transform: translateY(-10px) 
+    }
+
+    100%{
+        transform: translateX(0) 
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+ @media (max-width:992px){
+.nav-item  .nav-link{
+
+    text-align: center;
+   margin: 5px;
+  
+  background-color: rgb(210, 207, 20) !important; 
+}
+
+.tg-icon{
+   background-color: white !important;
+}
+
+.profile-title {
+    margin-top: 150px !important;
+    justify-content: center;
+
+ }
+
+
+
+ div .profile-photo{
+    margin-top: 100px !important;
+    margin-left: 0px;
+   
+}
+
+
+
+.colreverse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.colreverse .row{
+    flex-direction: column-reverse;
+    text-align: center;
+}
+
+div .profile-photo1{
+    margin-top: 100px;
+}
+
+/* .profile-title{
+  justify-content: center !important;
+} */
+} 
