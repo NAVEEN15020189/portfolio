@@ -31,7 +31,7 @@ color: white !important;
       transform:translateX(0)
     }
     50%{
-        transform:translateX(35%)
+        transform:translateX(30%)
       }
       100%{
         transform:translateX(0px)
@@ -129,7 +129,7 @@ text-align: center !important;
 .container-fluid .services h1 {
     margin-top: 200px;
     margin-bottom: 100px;
-    text-align: center;
+    
 
 }
 
@@ -140,7 +140,7 @@ text-align: center !important;
 }
 
 .card{
-    margin-right: 50px;
+    
     margin-bottom: 50px;
     border: 1 px solid !important;
     border-color:black !important ;
@@ -152,8 +152,14 @@ text-align: center !important;
    
 }
 
+.card15020{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .card1{
-    margin-right: 50px;
+  
     margin-bottom: 50px;
     border: 1 px solid !important;
     border-color:black !important ;
