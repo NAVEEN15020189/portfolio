@@ -1,13 +1,16 @@
 *{
     font-family: "Jost", sans-serif;
   font-optical-sizing: auto;
-  background-color: cadetblue;
+  
 }
 body {
     margin: 0;
     padding: 0;
     overflow-x: hidden; /* Prevent horizontal scrolling */
+    background-color: grey !important;
 }
+
+
 .nav-item  .nav-link{
 
     text-align: center;
@@ -25,13 +28,18 @@ color: white !important;
     animation: move 10s infinite;
     overflow: hidden;
 } 
+.services1{
+    display: flex;
+    justify-content: center;
+}
+
 
 @keyframes move{
     0%{
       transform:translateX(0)
     }
     50%{
-        transform:translateX(30%)
+        transform:translateX(10%)
       }
       100%{
         transform:translateX(0px)
